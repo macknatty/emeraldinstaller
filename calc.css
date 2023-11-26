@@ -1,0 +1,80 @@
+body{
+  background-color: #1c1c1c;
+}
+
+.phone{
+  border: 0.1em solid #545454 ;
+  border-radius: 30px;
+  width: 250px;
+  height: 450px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.displaypart{
+  width: 230px;
+  height: 60px;
+  margin-top: 50px;
+  
+}
+
+.buttonpart1{
+  width: 220px;
+  height: 250px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr; 
+  font-family: Helvetica, sans-serif;
+  align-items: center;
+  margin-top: 15px;
+  grid-gap: 8px;
+  column-gap: 7px;
+}
+
+.buttonpart1 button{
+  height: 50px;
+  border-radius:25px;
+  
+}
+
+.buttonpart1 button:not(.zerob){
+  width: 50px;
+}
+
+button{
+ font-family:Helvetica, sans-serif; 
+ font-size: 22px;
+ font-weight: 500;
+ 
+
+ 
+}
+.zerob {
+  grid-column-end: span 2;
+  width: 105px;
+  margin: right 5px; 
+  background-color:#505050 ;
+  border:2px solid #505050 ;
+  color: aliceblue;
+}
+.darkgray{
+  background-color:#505050 ;
+  border:2px solid #505050 ;
+  color: aliceblue;
+}
+
+  .lightgray {
+    background-color: #d4d4d2;
+    border:2px solid #d4d4d2  ;
+  }
+  .orange{
+    background-color: #ff9500;
+    font-size: 25px;
+    border:2px solid  #ff9500 ;
+    color: aliceblue;
+  }
+  button:hover{
+    filter: brightness(120%);
+    cursor: pointer;
+    
+  }
